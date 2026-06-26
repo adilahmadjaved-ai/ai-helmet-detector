@@ -7,3 +7,4 @@ torch
 torchvision
 pandas
 matplotlib
+plotly
