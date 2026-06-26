@@ -96,7 +96,7 @@ with st.sidebar:
     model = load_model()
     
     if model is None:
-        st.warning("⚠️ Please make sure the model file 'best (3).pt' exists in the current directory")
+        st.warning("⚠️ Please make sure the model file 'best.pt' exists in the current directory")
         st.stop()
     
     # Confidence threshold
