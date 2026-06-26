@@ -84,7 +84,7 @@ with st.sidebar:
     @st.cache_resource
     def load_model():
         try:
-            model_path = "best (3).pt"
+            model_path = "best.pt"
             if not os.path.exists(model_path):
                 st.error(f"Model file '{model_path}' not found!")
                 return None
